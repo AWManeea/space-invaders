@@ -11,7 +11,7 @@ const Levels = [
         name: "Outer Space",
         difficulty: "Difficult",
         blocksCount: 3,
-        winScore: 50,
+        scoreToReachBoss: 50,
         health: 2,
         bossHealth: 20,
     },
