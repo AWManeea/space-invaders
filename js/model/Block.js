@@ -6,7 +6,6 @@ class Block extends Drawable {
         this.x = Math.random() * (this.maxX() - this.width)
         this.y = Math.random() * (this.maxY() - this.height)
         this.style = "#9BD"
-        this.image = new Image
-        this.image.src = Images.BLOCK
+        this.image = Images.BLOCK
     }
 }
