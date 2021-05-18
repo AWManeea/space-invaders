@@ -33,7 +33,7 @@ class Boss extends Shooter {
                 this.style = "#844"
                 this.damageShield = null
             }, 100)
-            return this.health--
+            return --this.health
         }
         return health
     }

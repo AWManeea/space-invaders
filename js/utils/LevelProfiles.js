@@ -12,7 +12,7 @@ const Levels = [
         difficulty: "Difficult",
         blocksCount: 3,
         scoreToReachBoss: 50,
-        health: 2,
+        health: 3,
         bossHealth: 20,
     },
 ]

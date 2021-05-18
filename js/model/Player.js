@@ -20,7 +20,7 @@ class Player extends Shooter {
                 this.style = "#FFF"
                 this.damageShield = null
             }, 1000)
-            return this.health--
+            return --this.health
         }
         return this.health
 
