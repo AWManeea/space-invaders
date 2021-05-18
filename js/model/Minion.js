@@ -15,7 +15,6 @@ class Minion extends Movable {
             Images.RED_MINION,
             Images.YELLOW_MINION,
         ]
-        this.image = new Image
-        this.image.src = images[randomInt(0, images.length)]
+        this.image = images[randomInt(0, images.length)]
     }
 }

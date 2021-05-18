@@ -9,18 +9,16 @@ class Shot extends Movable {
         this.y = this.source.y + this.source.height / 2 - this.height / 2
         this.style = "#F15"
         if (source instanceof Boss) {
-            this.image = new Image
             switch (direction) {
-                case Directions.NORTH: this.image.src = Images.BOSS_SHOT_UP; break;
-                case Directions.SOUTH: this.image.src = Images.BOSS_SHOT_DOWN; break;
-                case Directions.EAST: this.image.src = Images.BOSS_SHOT_RIGHT; this.flipWidthHeight(); break;
-                case Directions.WEST: this.image.src = Images.BOSS_SHOT_LEFT; this.flipWidthHeight(); break;
-                default: this.image.src = Images.BOSS_SHOT_UP; break;
+                case Directions.NORTH: this.image= Images.BOSS_SHOT_UP; break;
+                case Directions.SOUTH: this.image = Images.BOSS_SHOT_DOWN; break;
+                case Directions.EAST: this.image = Images.BOSS_SHOT_RIGHT; this.flipWidthHeight(); break;
+                case Directions.WEST: this.image = Images.BOSS_SHOT_LEFT; this.flipWidthHeight(); break;
+                default: this.image= Images.BOSS_SHOT_UP; break;
             }
 
         } else if (source instanceof Player) {
-            this.image = new Image
-            this.image.src = Images.PLAYER_SHOT
+            this.image = Images.PLAYER_SHOT
             this.width = 10
             this.height = 50
         }

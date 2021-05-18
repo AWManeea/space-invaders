@@ -36,17 +36,31 @@ const Positions = {
 }
 
 const Images = {
-    BOSS_SHOT_UP: "assets/boss-shot-up.png",
-    BOSS_SHOT_DOWN: "assets/boss-shot-down.png",
-    BOSS_SHOT_LEFT: "assets/boss-shot-left.png",
-    BOSS_SHOT_RIGHT: "assets/boss-shot-right.png",
-    PLAYER_SHOT: "assets/player-shot.png",
-    BLOCK: "assets/block.png",
-    GREEN_MINION: "assets/green-minion.png",
-    CYAN_MINION: "assets/cyan-minion.png",
-    ORANGE_MINION: "assets/orange-minion.png",
-    PINK_MINION: "assets/pink-minion.png",
-    PURPLE_MINION: "assets/purple-minion.png",
-    RED_MINION: "assets/red-minion.png",
-    YELLOW_MINION: "assets/yellow-minion.png",
+    BOSS_SHOT_UP: new Image,
+    BOSS_SHOT_DOWN: new Image,
+    BOSS_SHOT_LEFT: new Image,
+    BOSS_SHOT_RIGHT: new Image,
+    PLAYER_SHOT: new Image,
+    BLOCK: new Image,
+    GREEN_MINION: new Image,
+    CYAN_MINION: new Image,
+    ORANGE_MINION: new Image,
+    PINK_MINION: new Image,
+    PURPLE_MINION: new Image,
+    RED_MINION: new Image,
+    YELLOW_MINION: new Image,
 } 
+
+Images.BOSS_SHOT_UP.src = "assets/boss-shot-up.png"
+Images.BOSS_SHOT_DOWN.src = "assets/boss-shot-down.png"
+Images.BOSS_SHOT_LEFT.src = "assets/boss-shot-left.png"
+Images.BOSS_SHOT_RIGHT.src = "assets/boss-shot-right.png"
+Images.PLAYER_SHOT.src = "assets/player-shot.png"
+Images.BLOCK.src = "assets/block.png"
+Images.GREEN_MINION.src = "assets/green-minion.png"
+Images.CYAN_MINION.src = "assets/cyan-minion.png"
+Images.ORANGE_MINION.src = "assets/orange-minion.png"
+Images.PINK_MINION.src = "assets/pink-minion.png"
+Images.PURPLE_MINION.src = "assets/purple-minion.png"
+Images.RED_MINION.src = "assets/red-minion.png"
+Images.YELLOW_MINION.src = "assets/yellow-minion.png"
