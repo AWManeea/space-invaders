@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+
+body{
+    margin: 0;
+    text-align: center;
+    color: rgb(224, 251, 255);
+    background-color: black;
+    font-family: 'Inter';
+    font-size: large;
+    background-image: url("/assets/background.jpg");
+}
+
+footer{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 34% 33%;
+}
+
+.ctrl-btn {
+    background-color: transparent;
+    padding: 5px 25px;
+    position: relative;
+    float: right;
+    right: 50px;
+    width: 50px;
+}
+
+.ctrl-btn:hover {
+    padding: 0 20px;
+    border: white 5px ;
+    border-style: ridge;
+    background-color: #222;
+    cursor: pointer;
+}
+
+canvas{
+    background-image: url("/assets/background.jpg");
+}
